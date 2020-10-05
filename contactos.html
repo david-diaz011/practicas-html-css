@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="David Diaz" />
+    <meta name="keywords" content="formulario, lista, tabla, css, estilos" />
+    <meta name="description" content="practica de elementos html y css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Practica HTML y CSS</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="menu__content">
+          <li class="menu__content__item">
+            <a class="menu__content__link" href="index.html">incio</a>
+          </li>
+          <li class="menu__content__item">
+            <a class="menu__content__link" href="elementos.html">elementos</a>
+          </li>
+          <li class="menu__content__item">
+            <a class="menu__content__link" href="contactos.html">contactos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner banner--modificador">
+        <div class="banner__container">
+          <h1 class="banner__titular">practica de HTML5 y CSS3</h1>
+          <p class="banner__parrafo banner__parrafo--modificador">
+            comenzamos nuestra practica usando <b>html5 y css3</b>
+          </p>
+        </div>
+      </section>
+      <section class="formulario">
+        <h2 class="formulario__titulo">contacto</h2>
+        <!-- formulario de contacto -->
+
+        <form action="" class="formulario__container">
+          <div class="formulario__container__usuario">
+            <div class="formulario__item">
+              <label for="" class="formulario__label">nombre</label>
+              <input
+                type="text"
+                placeholder="juan perez"
+                class="formulario__input"
+              />
+            </div>
+
+            <div class="formulario__item">
+              <label for="" class="formulario__label">edad</label>
+              <input type="number" placeholder="20" class="formulario__input" />
+            </div>
+          </div>
+
+          <div class="formulario__item">
+            <label for="" class="formulario__label">email</label>
+            <input
+              type="email"
+              placeholder="juan@perez.com"
+              class="formulario__input"
+            />
+          </div>
+
+          <div class="formulario__item">
+            <label for="" class="formulario__label">comentario</label>
+            <textarea
+              name="comentario"
+              placeholder="ingrese su comentario"
+              class="formulario__texto"
+            ></textarea>
+          </div>
+
+          <div class="formulario__item">
+            <label for="redes" class="formulario__label"
+              >¿como nos conociste?</label
+            >
+            <input
+              list="redes"
+              placeholder="cursos"
+              class="formulario__input"
+            />
+            <datalist id="redes">
+              <option value="face"></option>
+              <option value="twiter"></option>
+              <option value="instagram"></option>
+              <option value="tic-tock"></option>
+            </datalist>
+          </div>
+
+          <div class="formulario__radio">
+            <label for="" class="formulario__label"
+              >¿tienes conocimientos previos en programacion?</label
+            >
+            <div class="radio__container">
+              <input type="radio" name="grupo" id="si" class="radio__input" />
+              <label class="radio__label" for="si">si</label>
+              <input type="radio" name="grupo" id="no" class="radio__input" />
+              <label class="radio__label" for="no">no</label>
+            </div>
+          </div>
+          <input type="submit" class="formulario__enviar" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        &copy;Rolling Code school. todos los derechos reservados
+      </p>
+    </footer>
+  </body>
+</html>
