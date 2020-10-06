@@ -34,6 +34,8 @@ html {
   background-color: #0080ff;
   width: 100vw;
   padding: 1rem;
+  height: 30vh;
+  font-size: 1.2rem;
 }
 
 .banner__container {
@@ -47,7 +49,7 @@ html {
 }
 
 .banner__parrafo {
-  margin-top: 1rem;
+  margin-top: 2.2rem;
 }
 
 /*estilo de imagenes */
@@ -90,24 +92,8 @@ html {
 
 /* modificadores de estilos para la pagina index*/
 
-.contenido__decoraciontext--index {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
 .contenido__subtitulo--index {
   margin: 2rem 0 4rem 0;
-}
-.banner--index {
-  height: 40vh;
-}
-
-.banner__textstyles--index {
-  font-weight: 500;
-  font-size: 2rem;
-}
-.banner_parrafo--index {
-  margin-top: 3rem;
 }
 
 /*estilos de pag de elementos*/
@@ -209,13 +195,6 @@ html {
 .titulo__subtitle--elementos {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-.banner--modificador {
-  height: 30vh;
-  font-size: 1.2rem;
-}
-.banner__parrafo--modificador {
-  margin-top: 2.2rem;
 }
 
 /* modificadores de botones */
